@@ -1,0 +1,94 @@
+body{
+    background-color: #dedede;
+    height:80vh;
+    width:max-width;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    
+    height: 50vh ;
+    width: 45%;
+    background-color:#f0f0f0;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px #b9b0b0 ,
+             -10px -10px 20px #efe5e5;
+                
+}
+
+.container #screen{
+    margin:20px;  
+    height: 10vh;
+    width: 93%;
+    background-color: #fff;
+    font-size: 8vh;
+    text-align: right;
+    border-radius: 8px;
+    border:none;
+    text-decoration: none;
+    box-shadow: 5px 5px 8px #efe5e5 inset,
+                -5px -5px 8px #efe5e5 inset;
+                outline:none;
+}
+
+.bdy{
+    height:30vh;
+    width:90%;
+    display: flex;
+    justify-content: center ;
+    flex-direction: column;
+    margin-left: 2.5em;
+    
+}
+
+.bdy button{
+
+    width: 14%;
+    height: 4vh;
+    font-size: 15px;
+    box-shadow: 3px 3px 4px #002040,
+                 -3px -3px 4px #fff;
+    padding: .5em; 
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin: 4px;
+}
+
+.bdy button:hover{
+    background-color: #dedede;
+    
+}
+.bdy button:active{
+    box-shadow: 2px 2px 2px #002040 inset;
+}
+
+.bdy #ce{
+    background-color: rgba(30,150,220,0.8);
+
+}
+.bdy #ce:active{
+    box-shadow: 2px 2px 2px rgb(30,150,220) inset;
+}
+
+.bdy #ac{
+    background-color: rgba(230,100,0,0.8);
+
+}
+.bdy #ac:active{
+    box-shadow: 2px 2px 2px rgba(230,100,0) inset;
+}
+
+.bdy #eql{
+    background-color: rgba(20,230,0,0.8);
+
+}
+.bdy #eql:active{
+    box-shadow: 2px 2px 2px rgba(20,230,0) inset;
+}
+
+.bdy #_10{
+    padding-top: 2px;
+    margin-bottom: 3.2px;
+}
